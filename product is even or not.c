@@ -5,7 +5,7 @@ int main(void)
 int a,c,b;
 printf("enter two num");
 scanf(%d%d",&a,&b);
-c=a+b;
+c=a*b;
 if(c%2==0)
 {
 printf("even");
