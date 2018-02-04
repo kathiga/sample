@@ -10,5 +10,6 @@ d=n%10;
 rev=(rev+d)*10;
 n=n/10;
 }
+  printf("rev num is %d",rev);
 return 0;
 }
