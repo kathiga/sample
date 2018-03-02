@@ -22,7 +22,7 @@ printf("same");
 else
 printf("differ");
 if(s1>s2)
-printf("%s",a);
+printf("\n%s",a);
 else
-printf("%s",b);
+printf("\n%s",b);
 }
