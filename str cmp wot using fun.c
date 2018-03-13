@@ -9,11 +9,8 @@ gets(a);
 gets(b);
 for(i=0;a[i]!='\0';i++)
 {
-   for(j=0;b[j]!='\0';j++)
-   {
-        if(a[i]==b[j])
+          if(a[i]==b[j])
         count++;
-   }
 }
 s1=strlen(a);
 s2=strlen(b);
