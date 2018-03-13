@@ -3,13 +3,13 @@
 int main()
 {
 char a[10],b[10];
-int i,j,s1,s2,count=0;
+int i,s1,s2,count=0;
 printf("enter two strings");
 gets(a);
 gets(b);
 for(i=0;a[i]!='\0';i++)
 {
-          if(a[i]==b[j])
+          if(a[i]==b[i])
         count++;
 }
 s1=strlen(a);
