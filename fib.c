@@ -11,6 +11,5 @@ int main()
 		printf("\t%d",z);
 		x=y;
 		y=z;
-		
-		
 	}
+}
